@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1140px;
+    margin: auto;
+}
+
+a, a:hover{
+    text-decoration: none;
+}
+
+ul ol li{
+    list-style: none;
+}
+/*HEADER*/
+#header{
+    position: absolute;
+    width: 100%;
+    padding: 30px 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.header-logo{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-left: 24px;
+}
+.header-burger-menu{
+    background: #be123c;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    position: relative;
+}
+
+.burger-line{
+    width: 17px;
+    height: 2px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    margin: auto;
+    transform: translateY(22px);
+
+}
+.end-menu{
+    display: flex;
+    align-items: center;
+
+}
+.burger-line::before{
+    content: '';
+    position: absolute;
+    width: 17px;
+    height: 2px;
+    background: #fff;
+    bottom: 10px;
+}
+.header-search{
+    width: 100%;
+    background: transparent;
+    border: none;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(6px);
+}
+
+.header-search:focus-visible{
+    outline: none;
+}
+.search input::placeholder{
+    color: #fff;
+}
+.search{
+    border: 2px solid #D1D5DB;
+    border-radius: 6px;
+    width: 525px;
+    height: 36px;
+    padding: 5px ;
+    color: #fff;
+
+}
+.search-icon{
+    float: right ;
+    transform: translate(-5px, -12px);
+}
+.sign-in{
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    margin-right: 27px;
+}
+/*HEADER*/
+
+/*HERO*/
+#hero{
+    background: url("../img/Poster.png") no-repeat center/cover;
+    min-height: 100vh;
+}
+
+.hero{
+    padding-top: 250px;
+
+}
+.hero-title{
+    width: 404px;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    color: #FFFFFF;
+}
+.hero-subtitle{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: #fff;
+    width: 302px;
+    margin-bottom: 20px;
+}
+
+
+.hero-items{
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-items: center;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.hero-item2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 34px;
+}
+.text{
+
+font-size: 12px;
+line-height: 12px;
+color: #FFFFFF;
+
+    margin-left: 10px;
+
+
+}
+
+.hero-btn{
+    background: #be123c;
+    border-radius: 6px;
+    padding: 10px 20px;
+    color: #fff;
+
+}
+/*HERO*/
+/*Slider*/
+.featmovie{
+    display: flex;
+    justify-content: space-between;font-weight: bold;
+    align-items: center;
+    font-size: 36px;
+    line-height: 47px;
+    color: #000000;
+
+
+}
+.featmovie a{
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #BE123C;
+    display: flex;
+    align-items: center;
+
+
+}
+.featmovie a img{
+    margin-left: 10px;
+}
+#movie{
+    padding-top: 70px;
+}
+.movie{
+    padding-top: 44px;
+
+}
+.country{
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+     color: #9CA3AF;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.name{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    color: #111827;
+
+}
+.static{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+.imd{
+    display: flex;
+    align-items: center;
+
+}
+.static h6{
+    margin-left: 10px;
+}
+.tom{
+    display: flex;
+    align-items: center;
+}
+
+.movie .slick-arrow{
+    position: absolute;
+}
+.movie .slick-prev{
+    font-size: 0;
+    background: url('../img/Icon.svg') no-repeat center/20px;
+    width: 30px;
+    height: 20px;
+    border: none;
+    position: absolute;
+    left: -60px;
+    top: 170px;
+}
+.movie .slick-next{
+    font-size: 0;
+    background: url('../img/Icon (1).svg') no-repeat center/20px;
+    width: 30px;
+    height: 20px;
+    border: none;
+    position: absolute;
+    right: -60px;
+    top: 170px;
+}
+ #NewArrival{
+     margin-top: 70px;
+ }
+/*Slider*/
